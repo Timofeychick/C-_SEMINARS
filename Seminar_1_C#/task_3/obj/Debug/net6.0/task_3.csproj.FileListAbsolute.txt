@@ -1,0 +1,15 @@
+/Users/timofejfrolov/Desktop/geek_brains/CS/task_3/bin/Debug/net6.0/task_3
+/Users/timofejfrolov/Desktop/geek_brains/CS/task_3/bin/Debug/net6.0/task_3.deps.json
+/Users/timofejfrolov/Desktop/geek_brains/CS/task_3/bin/Debug/net6.0/task_3.runtimeconfig.json
+/Users/timofejfrolov/Desktop/geek_brains/CS/task_3/bin/Debug/net6.0/task_3.dll
+/Users/timofejfrolov/Desktop/geek_brains/CS/task_3/bin/Debug/net6.0/task_3.pdb
+/Users/timofejfrolov/Desktop/geek_brains/CS/task_3/obj/Debug/net6.0/task_3.csproj.AssemblyReference.cache
+/Users/timofejfrolov/Desktop/geek_brains/CS/task_3/obj/Debug/net6.0/task_3.GeneratedMSBuildEditorConfig.editorconfig
+/Users/timofejfrolov/Desktop/geek_brains/CS/task_3/obj/Debug/net6.0/task_3.AssemblyInfoInputs.cache
+/Users/timofejfrolov/Desktop/geek_brains/CS/task_3/obj/Debug/net6.0/task_3.AssemblyInfo.cs
+/Users/timofejfrolov/Desktop/geek_brains/CS/task_3/obj/Debug/net6.0/task_3.csproj.CoreCompileInputs.cache
+/Users/timofejfrolov/Desktop/geek_brains/CS/task_3/obj/Debug/net6.0/task_3.dll
+/Users/timofejfrolov/Desktop/geek_brains/CS/task_3/obj/Debug/net6.0/refint/task_3.dll
+/Users/timofejfrolov/Desktop/geek_brains/CS/task_3/obj/Debug/net6.0/task_3.pdb
+/Users/timofejfrolov/Desktop/geek_brains/CS/task_3/obj/Debug/net6.0/task_3.genruntimeconfig.cache
+/Users/timofejfrolov/Desktop/geek_brains/CS/task_3/obj/Debug/net6.0/ref/task_3.dll
