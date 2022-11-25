@@ -5,9 +5,9 @@ int number = Convert.ToInt32(Console.ReadLine());
 string[] array = {"Нет такого дня", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"};
 int index  = number;
 
-if (0 < number && number < 7)
+if (0 < number && number < 8)
 {
-    if (number < 7 && number > 4)
+    if (number < 8 && number > 4)
     {
         Console.WriteLine("Выходной");
     }
