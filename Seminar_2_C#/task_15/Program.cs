@@ -7,7 +7,7 @@ int index  = number;
 
 if (0 < number && number < 8)
 {
-    if (number < 8 && number > 4)
+    if (number < 8 && number > 5)
     {
         Console.WriteLine("Выходной");
     }
