@@ -2,8 +2,6 @@
 
 Console.WriteLine("Напишите номер дня недели (1 - пнд, 2 - вт...)");
 int number = Convert.ToInt32(Console.ReadLine());
-string[] array = {"Нет такого дня", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"};
-int index  = number;
 
 if (0 < number && number < 8)
 {
