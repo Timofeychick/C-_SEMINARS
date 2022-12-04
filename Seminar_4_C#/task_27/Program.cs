@@ -4,21 +4,21 @@
 
 // реализовано:
 Console.WriteLine("Напишите ваше целое число: ");
-int us_number = Convert.ToInt32(Console.ReadLine());
-string s_numbers = us_number.ToString();
-char [] array = s_numbers.ToCharArray();
+int usNumber = Convert.ToInt32(Console.ReadLine());
+string sNumbers = usNumber.ToString();
+char [] array = sNumbers.ToCharArray();
 
 int index = 0;
 int len = array.Length;
 int result = 0;
 
-if (us_number > 0) 
+if (usNumber > 0) 
 {
     while (index < len)
     {
         string num = array[index].ToString();
-        int fin_num = Convert.ToInt32(num);
-        result = result + fin_num;
+        int finNum = Convert.ToInt32(num);
+        result = result + finNum;
         index++;
     }
 }
@@ -28,8 +28,8 @@ else
     while (index < len)
     {
         string num = array[index].ToString();
-        int fin_num = Convert.ToInt32(num);
-        result = result + fin_num;
+        int finNum = Convert.ToInt32(num);
+        result = result + finNum;
         index++;
     }
 }
