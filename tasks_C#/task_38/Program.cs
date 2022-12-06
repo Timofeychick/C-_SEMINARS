@@ -6,8 +6,8 @@ for (int i = 0; i < array.Length; i++) {
     array[i] = new Random().Next(0, 100);
     Console.Write ($"{array[i]} ");
 }
-
-for (int j = 0; j < array.Length; j = j + 2) {
+Console.WriteLine();
+for (int j = 1; j < array.Length; j = j + 2) {
     result = result + array[j];
 }
 Console.WriteLine();
