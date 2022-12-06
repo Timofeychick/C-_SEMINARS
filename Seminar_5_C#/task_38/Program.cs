@@ -7,7 +7,7 @@ double max = array[0];
 
 for (int i = 0; i < array.Length; i++) 
 {
-    array[i] = new Random().Next(-9999,9999);
+    array[i] = new Random().NextDouble(); // NextDouble - генерирует вещесвтенные числа
     Console.Write($"{array[i]} ");
     if (array[i] > max) max = array[i];
     if (min > array[i]) min = array[i];
