@@ -23,7 +23,7 @@ while (stop == 0)
         }
         catch (FormatException)
         {
-            count = count;
+            Console.WriteLine($" - это не число");
         }
     }
 }
