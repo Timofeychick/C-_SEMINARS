@@ -7,9 +7,9 @@
 // Console.WriteLine(); везде понатыкано для красивого вывода (можно убрать)
 Console.Clear();
 
-Console.Write("введите количество столбцов:  ");
-int m = Convert.ToInt32(Console.ReadLine());
 Console.Write("введите количество строк:  ");
+int m = Convert.ToInt32(Console.ReadLine());
+Console.Write("введите количество столбцов:  ");
 int n = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine();
 
@@ -17,7 +17,7 @@ int [,] array = new int [m, n];
 int indexCol = 0;
 int indexRow = 0;
 
-Console.WriteLine("Ваш массив случайных цифр: ");
+Console.WriteLine("Ваш массив случайных чисел: ");
 Console.WriteLine();
 
 for (int j = 0; j < m; j++) // задаем массив 
@@ -65,7 +65,7 @@ Console.WriteLine();
 indexColSort = 0;
 indexRowSort = 0;
 
-Console.WriteLine("Ваш сконвертированный массив случайных цифр: ");
+Console.WriteLine("Ваш сконвертированный массив случайных чисел: ");
 Console.WriteLine();
 
 for (int i = 0; i < n; i++) // выводим конвертированный массив
