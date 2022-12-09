@@ -20,9 +20,7 @@ for (int i = 0; i < m; i++) // задаем массив вещественны�
     }
     indexCol = 0;
     indexRow++;
-    Console.WriteLine();
 }
-Console.WriteLine();
 
 indexCol = 0;
 indexRow = 0;
@@ -38,7 +36,6 @@ for (int i = 0; i < m; i++) // задаем массив целых чисел �
     }
     indexCol = 0;
     indexRow++;
-    Console.WriteLine();
 }
 
 indexCol = 0;
