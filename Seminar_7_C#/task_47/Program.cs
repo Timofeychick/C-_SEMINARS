@@ -5,12 +5,13 @@ Console.Write("введите количество столбцов:  ");
 int n = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine();
 
+
 double [,] array1 = new double [m, n];
 
 int indexCol = 0;
 int indexRow = 0;
 
-for (int i = 0; i < m; i++)
+for (int i = 0; i < m; i++) // задаем массив вещественных чисел от 0 до 1
 {
     for (int j = 0; j < n; j++)
     {
@@ -28,7 +29,7 @@ indexRow = 0;
 
 double [,] array2 = new double [m, n];
 
-for (int i = 0; i < m; i++)
+for (int i = 0; i < m; i++) // задаем массив целых чисел от -9 до 9
 {
     for (int j = 0; j < n; j++)
     {
@@ -45,7 +46,7 @@ indexRow = 0;
 
 double [,] array3 = new double [m, n];
 
-for (int i = 0; i < m; i++)
+for (int i = 0; i < m; i++) // складываем 2 массива и получаем и выводим массив вещественных чисел от -9 до 9
 {
     for (int j = 0; j < n; j++)
     {
