@@ -1,8 +1,7 @@
 ﻿// 61. Найти произведение двух матриц
-
-Console.WriteLine("Это программа перермножения матриц");
-Console.WriteLine("Для того чтобы перемножить матрицы, матрицы должны быть совместимы:");
-Console.WriteLine("Число столбцов умножаемой матрицы должно быть равно числу строк матрицы - множителя");
+// Для того чтобы перемножить матрицы, они долдны быть совметсимы: количетсво столбцов в умножаемой матрице должно равняться количеству
+// столбцов в матрице - множителе
+Console.Clear();
 Console.WriteLine("Введите количество столбцов умножаемой матрицы:");
 int column  = Convert.ToInt32(Console.ReadLine()); // столбцы умножаемой матрицы
 Console.WriteLine("Введите количество строк умножаемой матрицы:");
@@ -16,30 +15,33 @@ int [,] array2 = new int [rowMult, columnMult]; // матрица - множит
 int [,] array3 = new int [row, columnMult]; // матрица - результат
 
 Console.WriteLine("Умножаемая матрица:");
+Console.WriteLine();
 
 for (int i = 0; i < row; i++) // задание умножаемой матрицы
 {
     for (int j = 0; j < column; j++)
     {
-        array1[i,j] = new Random().Next(4,10);
+        array1[i,j] = new Random().Next(4,10); // Next задает диапазон случайных значений в интервале [4, 10) (можно поменять)
         Console.Write($"{array1[i,j]} ");
     }
     Console.WriteLine();
 }
+Console.WriteLine();
 Console.WriteLine("Матрица - множитель:");
+Console.WriteLine();
 
-for (int i = 0; i < rowMult; i++) // задание матрицы - умножителя
+for (int i = 0; i < rowMult; i++) // задание матрицы - множителя
 {
     for (int j = 0; j < columnMult; j++)
     {
-        array2[i,j] = new Random().Next(4,10);
+        array2[i,j] = new Random().Next(4,10); // Next задает диапазон случайных значений в интервале [4, 10) (можно поменять)
         Console.Write($"{array2[i,j]} ");
     }
     Console.WriteLine();
 }
 
-int result = 0; // считаем значение элемента
-int multiple = 0; // перемножение элементов по правилу перемножения матриц
+int result = 0; // значение элемента в итоговой матрице после суммирования всех "multiple"
+int multiple = 0; // результат перемножения элементов в умножаемой матрице и матрице - множителе (последовательно, по правилу перемножения матриц)
 
 for (int k = 0; k < columnMult; k++) // находим произведение двух матриц
 {
@@ -54,8 +56,9 @@ for (int k = 0; k < columnMult; k++) // находим произведение 
         result = 0;
     }
 }
-
+Console.WriteLine();
 Console.WriteLine("Результат перемножения:");
+Console.WriteLine();
 
 for (int i = 0; i < row; i++) // выводим произведение двух матриц
 {
